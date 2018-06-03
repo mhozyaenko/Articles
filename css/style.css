@@ -1,0 +1,13 @@
+*, html, body {margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; list-style: none; font-size: 20px; font-family: Arial; color: darkslateblue;  background: azure;}
+nav {width: 60%; margin: 0 auto; }
+nav ul {display: flex; justify-content: space-between; align-items: center}
+nav ul li a {padding: 30px; text-transform: uppercase; border-right: 1px solid darkslateblue; font-size: 35px; line-height: 100px }
+h1 {font-size: 50px; font-weight: bolder; padding: 25px}
+.article {width: 80%; margin: 50px auto; display: flex; flex-direction: column; align-items: center;}
+.article h2 {font-size: 30px; text-transform: uppercase}
+.article p {margin: 25px 0}
+a {font-style: italic}
+a:hover {color: crimson}
+.artItem {width: 80%; margin: 50px auto; display: flex; flex-direction: column; align-items: center}
+.categories {position: fixed; left: 10%; top: 20%;}
+.categories li {padding: 15px 0}
